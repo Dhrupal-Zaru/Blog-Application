@@ -1,0 +1,39 @@
+.allblogs{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    margin: 30px auto;
+
+}
+.loading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    font-size: 16px;
+    color: rgb(57, 56, 56);
+}
+
+.blogContainer {
+    padding: 1rem 2rem;
+    width: 70%;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.search input{
+    width: 500px;
+    height: 40px;
+    padding: 0 12px;
+    border: 1px solid rgb(136, 135, 135) ;
+    border-radius: 3px;
+
+}
